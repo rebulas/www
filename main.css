@@ -1,0 +1,83 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Colors Hex: 2A3A48(dark blue), 3E6372(cold blue), B2D4DC(light blue), FAFAFF(white-ish), FF4B00(orange) */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  font-family: Open Sans;
+  font-size: 1.9em;
+}
+
+.technical-text {
+  font-family: Titillium Web;
+}
+
+.title {
+  font-family: Lora;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.notify, .notify:hover, .notify:focus{
+  font-family: Titillium Web;
+  background-color: #FF4B00;
+  border-color: rgb(230, 68, 0);
+  color: #FFFAFA !important;
+  text-transform: none !important;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 45px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
