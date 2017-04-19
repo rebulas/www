@@ -1,7 +1,4 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Colors Hex: 2A3A48(dark blue), 3E6372(cold blue), B2D4DC(light blue), FAFAFF(white-ish), FF4B00(orange) */
-/* Padding below the footer and lighter body text */
+/* Colors Hex: C5283D(red), E9724C(organge), FFC857(yellow), FAFAFF(white-ish) */
 
 body {
   padding-bottom: 40px;
@@ -21,10 +18,14 @@ body {
 
 .notify, .notify:hover, .notify:focus{
   font-family: Titillium Web;
-  background-color: #FF4B00;
+  background-color: #E9724C;
   border-color: rgb(230, 68, 0);
   color: #FFFAFA !important;
   text-transform: none !important;
+}
+
+.features > li {
+  padding-bottom: 15px;
 }
 
 /* MARKETING CONTENT
