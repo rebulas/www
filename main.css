@@ -1,32 +1,47 @@
 /* Colors Hex: C5283D(red), E9724C(organge), FFC857(yellow), FAFAFF(white-ish) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 83%;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+  font-size: 0.8em;
+  opacity: 0.6;
+}
 
 body {
-  padding-bottom: 40px;
+  margin-bottom: 60px;
   font-family: Open Sans;
   font-size: 1.9em;
 }
 
 .technical-text {
-  font-family: Titillium Web;
+  font-family: Source Code Pro;
 }
 
-.title {
-  font-family: Lora;
-  font-size: 3em;
-  font-weight: bold;
-}
-
-.notify, .notify:hover, .notify:focus{
-  font-family: Titillium Web;
-  background-color: #E9724C;
-  border-color: rgb(230, 68, 0);
+.launch, .launch:hover, .launch:focus {
+  font-size: 1em;
+  background-color: #5cb85c !important;
+  border-color: #CCC;
   color: #FFFAFA !important;
   text-transform: none !important;
+  margin-top: 10px;
+}
+
+.features {
+  list-style-image: url("images/rebulas-bullet.png");
 }
 
 .features > li {
-  padding-bottom: 15px;
+  padding-top: 10px;
 }
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

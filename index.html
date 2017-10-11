@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Rebulas - Productivity for the technically minded</title>
+	<title>Rebulas - Smart notes for developers</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='https://fonts.googleapis.com/css?family=Lora|Titillium+Web|Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="main.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,49 +12,41 @@
 </head>
 
 <body>
-	<div class="container-fluid marketing" style="padding-left: 15px; padding-right: 15px">
-		<div class="row">
-			<div class="col-lg-1"></div>
-			<div class="col-lg-3 title" style=";">Rebulas</div>
-			<div class="col-lg-8"></div>
-		</div>
-	</div>
+
 
 	<div class="container-fluid marketing" style="padding-left: 15px; padding-right: 15px">
 		<div class="row">
 			<div class="col-lg-2"></div>
+			<div class="col-lg-4" style="text-align: left"><img src="images/rebulas-logo.svg" width="400px"></div>
+			<div class="col-lg-7"></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2"></div>
 			<div class="col-lg-4" style="text-align:left;">
 				<br><br>
-				<div style="font-family: Lora; font-size: 2em">Productivity for the</div>
-				<div style="font-family: Titillium Web; font-size: 2.1em">technically minded</div><br>
-				<p>Life is short. We deserve better tools.</p>
-				<p>Organize, Enrchich, and Search information streams aided by conversational AI.</p>
+				<div style="font-family: Source Code Pro; font-size: 1.5em;">Smart Notes for Developers</div>
+				Life is short. We deserve better tools.<br><br>
+				Rebulas is a smart note collecting application geared for efficiency and privacy. Your data never touches our servers, yet you get full-text search and git-like features.
 				<br>
-
-				<form id="notify-form">
-					<input type="text" id="notify-email" class="form-control pull-left" placeholder="Email me know when you're ready to launch" style="width: 70%; margin-right: 5px"><button type="button" class="btn btn-primary notify" onclick="notify()">Notify me</button>
-				</form>
-				<p>
-					<div id="thank-you" style="display:none"><strong>Thank you for your interest, we'll notify you when we're ready to launch!</strong></div>
-				</p>
-
+				<button type="button" class="btn btn-primary launch" onclick="window.location.href=/app">Nice! Take me there</button>
 			</div>
 			<div class="col-lg-4" style="text-align:left;">
 					<div style="text-align: center; margin-bottom: 40px">
-						<img src="images/sun.png" width="300px" style="opacity: 0.5"/>
+						<a href="/app"><img src="images/app-screenshot.png" style="opacity: 0.5; margin-top: 30px;"/></a>
 					</div>
 					<ul class="features">
-              <li>Keep control of incoming information, articles, notes, and ideas. Rebulas uses Git and Markdown repositories as data source and target.</li>
-              <li>Tag/Label on the fly via command line, chat, e-mail or web interface</li>
-							<li>Machine Learning driven digital assitant</li>
-              <li>Browse &amp; Search</li>
-							<li>For Developers, Product Managers, anyone with the need to organize information with developer friendly tooling</li>
+              <li>Markdown as notes format, extract meta-data from markdown structure</li>
+							<li>One note -> one file with human-readable file names</li>
+              <li>Full-text search &amp; facetting for faster navigation</li>
+							<li>Git-like push / pull for synchronization, offline support</li>
+              <li>Terminal emulator, link and command shortcuts</li>
+							<li>Support for Dropbox and OneDrive storage backends</li>
           </ul>
 			</div>
 			<div class="col-lg-2"></div>
 		</div>
 	</div>
-
+	<footer class="footer">&copy; Rebulas 2017</footer>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
