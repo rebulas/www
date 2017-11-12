@@ -97,3 +97,9 @@ body {
     margin-top: 120px;
   }
 }
+
+.view-github {
+    text-decoration: underline;
+    color: inherit;
+    opacity: 0.6;
+}
